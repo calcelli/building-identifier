@@ -8,6 +8,8 @@ Plugins needed to build project:
    
    cordova-plugin-Storage
 
+___________________________________
+
 run ionic serve to host local
 
 run ionic build android to build android app
