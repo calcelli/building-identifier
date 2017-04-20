@@ -2,11 +2,11 @@
 
 Plugins needed to build project:
    
-   cordova-plugin-camera
+   -cordova-plugin-camera
    
-   cordova-plugin-geolocation
+   -cordova-plugin-geolocation
    
-   cordova-plugin-Storage
+   -cordova-plugin-Storage
 
 ___________________________________
 
