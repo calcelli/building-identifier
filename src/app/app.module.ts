@@ -3,6 +3,7 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
+import { HttpModule } from '@angular/http'
 
 import { IonicStorageModule } from '@ionic/storage';
 import { Geolocation } from '@ionic-native/geolocation';
@@ -31,7 +32,8 @@ import {Camera} from "@ionic-native/camera";
     IonicStorageModule.forRoot(),
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyCnadSLINUAZ6xxLse78h_AHZ90OA3IdhU'
-    })
+    }),
+    HttpModule
   ],
 
 
