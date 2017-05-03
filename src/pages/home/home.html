@@ -29,12 +29,16 @@
           <ion-col>Building Identifier</ion-col>
         </ion-row>
         <ion-row>
-          <ion-col><button ion-button icon-only block (click)="getResponse()">
+          <ion-col><button ion-button icon-only block (click)="takePicture()">
             <ion-icon name="camera"></ion-icon></button></ion-col>
         </ion-row>
         <ion-row>
           <ion-col>Latest Picture:</ion-col>
           <ion-col><img [src]="base64Image" *ngIf="base64Image" /></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col><button ion-button block (click)="getResponse()"></button></ion-col>
+          <h1>{{response}}</h1>
         </ion-row>
       </ion-grid>
     </ion-card-content>

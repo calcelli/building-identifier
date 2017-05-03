@@ -15,7 +15,8 @@ import { PlacesService } from "../services/places.service";
 import { PlacePage } from "../pages/place/place";
 
 import { AgmCoreModule } from 'angular2-google-maps/core';
-import {Camera} from "@ionic-native/camera";
+import { Camera } from "@ionic-native/camera";
+import { HTTP } from '@ionic-native/http';
 
 
 @NgModule({
@@ -52,7 +53,8 @@ import {Camera} from "@ionic-native/camera";
     PlacesService,
     Storage,
     Geolocation,
-    Camera
+    Camera,
+    HTTP
   ]
 })
 export class AppModule {}
